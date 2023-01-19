@@ -1,0 +1,32 @@
+{
+  "name": "star_wars_grapqhql",
+  "version": "1.0.0",
+  "description": "Api graphql for Starwars",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/B0rj4/star_wars_graphql.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "graphql"
+  ],
+  "author": "Borja LLorente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B0rj4/star_wars_graphql/issues"
+  },
+  "homepage": "https://github.com/B0rj4/star_wars_graphql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
